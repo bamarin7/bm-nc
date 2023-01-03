@@ -2,7 +2,7 @@
 import { useDispatch } from 'react-redux';
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, FormGroup, Label } from 'reactstrap';
-import { addComment } from './commentsSlice';
+import { postComment } from './commentsSlice';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateCommentForm } from '../../utils/validateCommentForm';
 
@@ -21,7 +21,7 @@ const CommentForm = ({ campsiteId }) => {
         };
 
         console.log('comment:', comment);
-        dispatch(addComment(comment));
+        dispatch(postComment(comment));
         setModalOpen(false);
     }
 
