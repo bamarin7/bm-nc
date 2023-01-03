@@ -201,6 +201,14 @@
       "text": "Very nice view of the lake!",
       "date": "2023-01-03T04:19:28.472Z",
       "id": 20
+    },
+    {
+      "campsiteId": 1,
+      "rating": "1",
+      "author": "Jay",
+      "text": "Bad Bunny never shoed up.",
+      "date": "2023-01-03T15:29:43.285Z",
+      "id": 21
     }
   ],
   "partners": [

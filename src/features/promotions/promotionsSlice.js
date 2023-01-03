@@ -2,6 +2,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 // import { PROMOTIONS } from '../../app/shared/PROMOTIONS';
 import { baseUrl } from '../../app/shared/baseUrl';
+import { mapImageURL } from "../../utils/mapImageURL";
 
 export const fetchPromotions = createAsyncThunk(
     'promotions/fetchPromotions',
